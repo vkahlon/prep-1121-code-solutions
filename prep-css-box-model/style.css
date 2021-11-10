@@ -9,6 +9,7 @@ button {
   /* 👇 YOUR CODE HERE 👇 */
   margin: 20px;
   padding: 10px;
-  border-width: 3px, darkgray;
+  border-width: 3px;
+  border-color: darkgray;
   border-style: double;
 }
