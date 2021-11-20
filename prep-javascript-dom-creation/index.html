@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript DOM Creation</title>
   </head>
+
   <body>
     <div id="container"></div>
     <script>
@@ -14,7 +15,7 @@
 
       var $heading = document.createElement('h1');
       console.log($heading);
-      $heading.textContent = 'Hello World!';
+      document.getElementById('container').textContent = 'Hello World!';
       $container.appendChild($heading);
     </script>
   </body>
